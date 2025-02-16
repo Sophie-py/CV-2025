@@ -5,7 +5,19 @@ import streamlit as st
 st.markdown("<h1 style='color: indigo;'>Anne-Sophie</h1>", unsafe_allow_html=True)
 
 # Ajouter un sommaire ou menu de navigation à gauche
-st.sidebar.image("Photo_profil.png", width=150)
+st.sidebar.markdown(
+    """
+    <style>
+    .circle-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    </style>
+    <img class="circle-image" src="Photo_profil.png">
+    """, unsafe_allow_html=True
+)
 
 with st.sidebar:
     menu_option = st.radio("**MON CV**", ["Présentation", "Chef de projets informatiques", "Administratrice de bases de données", "Data Analyst", "Doctorat en médecine coréenne"])
@@ -51,24 +63,20 @@ if menu_option == "Présentation":
         st.write("- Chinois    ⭐")
 
     with st.expander("Centres d'intérêt"):
-        st.write(" ")
-        # Afficher le texte en fonction du centre d'intérêt choisi
-        if st.checkbox("Secourisme"):
-            st.write("- Sauveteur Secouriste du Travail")
-            st.write("- Habilitation électrique")
-        if st.checkbox("Bénévolat"):
-            st.write("- Médecins du Monde (Desk Urgences)")
-            st.write("- Restos du Coeur")
-        if st.checkbox("Sports"):
-            st.write("- Ski, Surf")
-            st.write("- Trampoline")
-            st.write("- Tennis de table (vice-championne départementale 1995)")
-        if st.checkbox("Écriture"):
-            st.write("- Prix de rédaction en langue coréenne 2001 et 2002")
-            st.markdown(
-            '- [Mon site de voyages](https://asophieaucanada.e-monsite.com)', 
-            unsafe_allow_html=True
-        )
+        st.write("- **Secourisme**")
+        st.write("- Sauveteur Secouriste du Travail")
+        st.write("- Habilitation électrique")
+        st.write("- **Bénévolat**"):
+        st.write("- Médecins du Monde (Desk Urgences)")
+        st.write("- Restos du Coeur")
+        st.write("- **Sports**"):
+        st.write("- Ski, Surf")
+        st.write("- Trampoline")
+        st.write("- Tennis de table (vice-championne départementale 1995)")
+        st.write("- **Écriture**"):
+        st.write("- Prix de rédaction en langue coréenne 2001 et 2002")
+        st.markdown(
+            '- [Mon site de voyages](https://asophieaucanada.e-monsite.com)')
 
     with st.expander("Coordonnées"):
         # Afficher le symbole de téléphone avec Unicode
