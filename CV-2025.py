@@ -295,5 +295,5 @@ else:  # "Doctorat en médecine coréenne"
     with st.expander("Publications"):
         st.write("- _The Wave of Korean Manupuncture : Interfaces of Traditional Medicine in Contemporary Practice_")
         st.write("in Proceedings of the World Congress of Korean Studies, University of Cheju (South Korea), 2006")
-        st.write("세계한국학대회 – 논문집 : 문화교류의 역사와 현실, 실크로드에서 한류까지")
+        st.write("_세계한국학대회 – 논문집 : 문화교류의 역사와 현실, 실크로드에서 한류까지_")
         st.write("Vol. I, pp. 115–121. Texte de la communication en anglais. Bibliographie en coréen")
