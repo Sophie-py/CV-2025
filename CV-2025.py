@@ -5,19 +5,7 @@ import streamlit as st
 st.markdown("<h1 style='color: indigo;'>Anne-Sophie</h1>", unsafe_allow_html=True)
 
 # Ajouter un sommaire ou menu de navigation à gauche
-st.sidebar.markdown(
-    """
-    <style>
-    .circle-image {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        object-fit: cover;
-    }
-    </style>
-    <img class="circle-image" src="Photo_profil.png">
-    """, unsafe_allow_html=True
-)
+st.sidebar.image("Photo_profil.png", width=150)
 
 with st.sidebar:
     menu_option = st.radio("**MON CV**", ["Présentation", "Chef de projets informatiques", "Administratrice de bases de données", "Data Analyst", "Doctorat en médecine coréenne"])
