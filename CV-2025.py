@@ -63,17 +63,17 @@ if menu_option == "Présentation":
         st.write("- Chinois    ⭐")
 
     with st.expander("Centres d'intérêt"):
-        st.write("- **Secourisme**")
+        st.write("**Secourisme**")
         st.write("- Sauveteur Secouriste du Travail")
         st.write("- Habilitation électrique")
-        st.write("- **Bénévolat**")
+        st.write("**Bénévolat**")
         st.write("- Médecins du Monde (Desk Urgences)")
         st.write("- Restos du Coeur")
-        st.write("- **Sports**")
+        st.write("**Sports**")
         st.write("- Ski, Surf")
         st.write("- Trampoline")
         st.write("- Tennis de table (vice-championne départementale 1995)")
-        st.write("- **Écriture**")
+        st.write("**Écriture**")
         st.write("- Prix de rédaction en langue coréenne 2001 et 2002")
         st.markdown(
             '- [Mon site de voyages](https://asophieaucanada.e-monsite.com)')
