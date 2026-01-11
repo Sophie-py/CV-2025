@@ -120,7 +120,7 @@ if menu_option == "Présentation":
 
             <div class="location-container">
                 <span>📍</span> <!-- Symbole de localisation -->
-                <span>Nice, France</span>
+                <span>Hyères, France</span>
             </div>
         """, unsafe_allow_html=True)
 
@@ -297,3 +297,4 @@ else:  # "Doctorat en médecine coréenne"
         st.write("in Proceedings of the World Congress of Korean Studies, University of Cheju (South Korea), 2006")
         st.write("_세계한국학대회 – 논문집 : 문화교류의 역사와 현실, 실크로드에서 한류까지_")
         st.write("Vol. I, pp. 115–121. Texte de la communication en anglais. Bibliographie en coréen")
+
