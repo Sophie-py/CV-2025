@@ -62,7 +62,7 @@ if menu_option == "Présentation":
         st.write("- Trampoline")
         st.write("- Tennis de table (vice-championne départementale)")
         st.write("**Écriture**")
-        st.write("- Prix de rédaction en langue coréenne 2001 et 2002")
+        st.write("- Prix de rédaction en langue coréenne")
         st.markdown(
             '- [Mon site de voyages](https://asophieaucanada.e-monsite.com)')
 
@@ -297,5 +297,6 @@ else:  # "Doctorat en médecine coréenne"
         st.write("in Proceedings of the World Congress of Korean Studies, University of Cheju (South Korea), 2006")
         st.write("_세계한국학대회 – 논문집 : 문화교류의 역사와 현실, 실크로드에서 한류까지_")
         st.write("Vol. I, pp. 115–121. Texte de la communication en anglais. Bibliographie en coréen")
+
 
 
