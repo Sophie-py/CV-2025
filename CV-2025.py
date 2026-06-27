@@ -101,7 +101,7 @@ if menu_option == "Présentation":
 
             <div class="email-container">
                 <span>✉</span> <!-- Symbole d'email -->
-                <span>asophiedachet@hotmail.com</span>
+                <span>asophiedachet@gmail.com</span>
             </div>
         """, unsafe_allow_html=True)
 
